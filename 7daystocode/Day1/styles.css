@@ -1,0 +1,17 @@
+html, body {
+    height: 100%; /* Garante que html e body ocupem 100% da altura */
+    margin: 0; /* Remove margens padrão */
+}
+
+body {
+    background-image: url('caminho/para/sua/imagem.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+/* Estilos adicionais para o nav-menu */
+#nav {
+    position: relative; /* Permite posicionamento relativo */
+    z-index: 1; /* Garante que o conteúdo do menu fique acima do fundo */
+}
